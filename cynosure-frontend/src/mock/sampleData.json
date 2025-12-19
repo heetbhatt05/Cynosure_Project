@@ -1,0 +1,154 @@
+{
+  "quizQuestions": [
+    {
+      "id": "q1",
+      "question": "When you get a difficult problem in life or studies, what do you usually do first?",
+      "options": [
+        "Break it into smaller, simple steps and solve one by one",
+        "Think of many creative and different ideas",
+        "Talk to someone and discuss it together",
+        "Search online or in books to see how others solved it"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "You feel most happy and full of energy when you are:",
+      "options": [
+        "Working on something technical (like computers, math, science experiments)",
+        "Creating something (like drawing, design, videos, writing, music)",
+        "Leading or guiding a group of people",
+        "Helping someone understand or solve a problem"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Your ideal study or work environment would be:",
+      "options": [
+        "Quiet and focused, so you can concentrate deeply",
+        "Active and social, with people talking and sharing ideas",
+        "Fast and exciting, where many new things happen",
+        "Neat and well-organized, with clear rules and plans"
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "When you have to learn something new for school, you prefer to:",
+      "options": [
+        "Read notes, books or websites carefully",
+        "Watch videos or visual explanations",
+        "Try it yourself by doing practical work",
+        "Ask a teacher, senior, or friend to explain"
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "You feel proud of yourself the most when:",
+      "options": [
+        "You solve a tough logical or technical question",
+        "You create something that looks or sounds very good",
+        "Someone says you helped them or guided them well",
+        "You achieve a clear goal or target you planned"
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "In school or group projects, you usually like to:",
+      "options": [
+        "Take charge, divide work and keep track of progress",
+        "Think of new, unique ideas for the project",
+        "Do the main technical or detailed work",
+        "Support others, encourage them and keep the group together"
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "Which type of activity feels most natural to you?",
+      "options": [
+        "Using logic, numbers, and analysis",
+        "Using imagination, design, or artistic skills",
+        "Communicating, convincing or presenting",
+        "Planning, organizing, and managing tasks"
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Which school subjects do you usually enjoy the most?",
+      "options": [
+        "Math, Physics, Computer, or other science subjects",
+        "Art, Drawing, English, or other language subjects",
+        "History, Social Science, or Political Science",
+        "Business, Economics, or Accountancy"
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "When you have to make an important decision (like choosing a stream or course), you mostly depend on:",
+      "options": [
+        "Facts, data, and information you collect",
+        "Your inner feeling and what excites you",
+        "Advice and opinions from family or friends",
+        "Past experiences and what worked earlier"
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "When you feel stressed about exams or future career, what helps you the most?",
+      "options": [
+        "Making a timetable or clear step-by-step plan",
+        "Taking a creative break (music, drawing, games, etc.)",
+        "Talking to someone you trust",
+        "Quietly thinking and working through it one by one"
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "You feel you are naturally good at:",
+      "options": [
+        "Understanding how systems, machines, or computers work",
+        "Expressing ideas through art, design, writing, or media",
+        "Talking to people, building relationships, or teamwork",
+        "Managing time, tasks, and responsibilities carefully"
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "If you imagine your dream job, it should allow you to:",
+      "options": [
+        "Build or work with technology (apps, websites, machines, AI, etc.)",
+        "Create content (videos, designs, stories, music, graphics)",
+        "Guide people (as a leader, teacher, manager, counselor)",
+        "Use data, numbers, or research to make smart decisions"
+      ]
+    },
+    {
+      "id": "q13",
+      "question": "What type of feedback helps you improve the most?",
+      "options": [
+        "Straightforward feedback that clearly says what is wrong or right",
+        "Motivating and kind feedback that gives you confidence",
+        "Feedback with clear examples or stories",
+        "Feedback with scores, numbers, or visible results"
+      ]
+    },
+    {
+      "id": "q14",
+      "question": "Outside school, you enjoy spending time on:",
+      "options": [
+        "Coding, technical experiments, puzzles, or gadgets",
+        "Drawing, editing videos, photography, or music",
+        "Volunteering, teaching juniors, or working with people",
+        "Planning events, handling money, or organizing things"
+      ]
+    },
+    {
+      "id": "q15",
+      "question": "When you think about your life after 5–7 years, you want people to know you for:",
+      "options": [
+        "Being very strong in technology or problem solving",
+        "Being very creative and original in your work",
+        "Being a good leader or someone who inspires others",
+        "Helping many people grow, succeed, or feel supported"
+      ]
+    }
+  ]
+}

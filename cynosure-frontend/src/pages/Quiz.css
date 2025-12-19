@@ -1,0 +1,190 @@
+/* cynosure-frontend/src/pages/Quiz.css */
+
+/* Layout */
+.quiz-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Header Row */
+.quiz-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.75rem;
+  padding: 0 0.25rem;
+}
+
+.quiz-header-row h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  width: 100%;
+  height: 8px;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 20px;
+  margin-bottom: 2.25rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899);
+  border-radius: 20px;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.5);
+}
+
+/* Question Card */
+.question-card {
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  padding: 2rem 2rem 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.question-card h3 {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Options Grid – 2 left / 2 right on desktop */
+.options-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* fixed 2 columns */
+  gap: 1.2rem 1.3rem;
+  width: 100%;
+}
+
+/* Option Buttons (old style, slightly cleaned) */
+.option-button {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.4rem 1.5rem;
+  color: #cbd5e1;
+  font-size: 1.02rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option-button:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -5px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+/* Selected State */
+.option-button.selected {
+  background: linear-gradient(
+    135deg,
+    rgba(99, 102, 241, 0.15),
+    rgba(79, 70, 229, 0.15)
+  );
+  border-color: #6366f1;
+  color: #ffffff;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3);
+}
+
+.option-button.selected::after {
+  content: "✓";
+  background: #6366f1;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.75rem;
+}
+
+/* Navigation Area */
+.quiz-navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.75rem;
+}
+
+.quiz-navigation .cta-button {
+  padding: 0.9rem 2.6rem;
+  font-size: 1.05rem;
+  background: #ffffff;
+  color: #0f172a;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.quiz-navigation .cta-button:hover:not(:disabled) {
+  transform: scale(1.04);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.quiz-navigation .cta-button:disabled {
+  background: #334155;
+  color: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Mobile – stack options vertically */
+@media (max-width: 768px) {
+  .quiz-container {
+    padding: 1.75rem 1rem 2.25rem;
+  }
+
+  .quiz-header-row {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+
+  .question-card {
+    padding: 1.5rem 1.25rem 1.8rem;
+  }
+
+  .question-card h3 {
+    font-size: 1.25rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  .options-container {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
+
+  .option-button {
+    padding: 1.2rem 1.1rem;
+  }
+}
